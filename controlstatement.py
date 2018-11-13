@@ -43,3 +43,9 @@ print(my_list)
 
 print(val.index('0'))
 print(val[3:7])
+
+# no output since step is -ve
+for i in range(0, 100, -2):
+    print(i)
+for i in (range(0, 100)[::-2]):
+    print(i)
