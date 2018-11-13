@@ -2,6 +2,11 @@ for i in range(0, 100, 7):
     print(i)
 
 quote = "We Need To Be There In Time"
+
+# reverse the string
+
+print(quote[::-1])
+
 for i in quote:
     if i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
         print(i, end='')
