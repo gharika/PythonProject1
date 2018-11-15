@@ -7,7 +7,7 @@ print(t)
 
 # assign multiple variables
 a = b = c = d = 12
-a, b = 12, 14
+x, y = 12, 14
 
 value_a, value_b, value_c = t
 print(value_b)
